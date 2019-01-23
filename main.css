@@ -2,6 +2,7 @@
     width: 80%;
     height: 100%;
     margin: 0 auto;
+    line-height: 35px;
 }
 .title {
     text-align: center;
@@ -100,7 +101,6 @@
 
 .journal {
     padding: 10% 0 5% 0;
-    /* height: 1400px; */
 }
 .journal-box {
     margin: 100px auto;
@@ -205,11 +205,103 @@
     margin-bottom: 10px;
 }
 .box-title__blue,
-.box-title__black {
+.box-title__black,
+.work-items__title {
     font-weight: 600;
     letter-spacing: 2;
     margin-bottom: 5%;
 }
-.box-description {
+.box-description,
+.work-items__description {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.order {
+    position: relative;
+    height: 650px;
+    background: url('https://images.unsplash.com/photo-1444065707204-12decac917e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80') no-repeat;
+    background-size: cover;
+    padding-top: 170px; 
+    background-attachment: fixed;
+    font-size: 16px;
+}
+
+.order-title {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.order-description {
+    line-height: 35px;
+}
+.order-form {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.order-form__input {
+    margin-right: 20px;
+    border: none;
+    border-radius: 3px;
+    padding: 20px 50px;
+    align-self: center;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+
+.work {
+    padding: 100px 0;
+    text-align: center;
+}
+.work-items {
+    width: 100%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    font-size: 16px;
+}
+.work-items .item {
+    width: 15%;
+    min-width: 230px;
+    padding: 10px;
+}
+.item-round {
+    width: 220px;
+    height: 220px;
+    background-color: #eff3f6;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+.item-round img {
+    position: absolute;
+    top: 29px;
+    left: 34px;
+}
+.item-round .icon {
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    background-image: url('https://www.iconsmind.com/wp-content/themes/iconsmind/dist/pic/icons.png');
+    position: absolute;
+    top: 33%;
+    left: 34%;
+}
+.item-icon__1 {
+    background-position: -131px 0px;
+}
+.item-icon__2 {
+    background-position: -391px -4px;
+}
+.item-icon__3 {
+    background-position: -520x 1px;
+}
+.item-icon__4 {
+    background-position: -658px 1px;
+}
+.item .work-items__title {
     font-size: 16px;
 }
