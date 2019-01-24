@@ -17,7 +17,7 @@ footer, header, nav {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 30px;
 }
 ul {
 	list-style: none;
@@ -30,6 +30,6 @@ a {
 }
 *, *:after, *:before {
     box-sizing: border-box;
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
