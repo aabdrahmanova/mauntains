@@ -127,7 +127,6 @@
     transform: skewX(-30deg);
   }
   .button:hover::before {
-    /* -webkit-animation: shine .5s; */
     animation: shine .4s;
     display: block;
     overflow: hidden;
@@ -717,3 +716,38 @@
   .icon-fb {
     background-position: -73px 0;
   }
+
+.b-container{
+    width:200px;
+    height:150px;
+    background-color: #f9fcff;
+    margin: 0px auto;
+    display: none;
+}
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    display: none;
+}
+.b-popup .b-popup-content{
+    margin: 150px auto 0px auto;
+    width: 40%;
+    height: 550px;
+    padding: 50px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+.b-popup-content .description {
+    text-align: center;
+}
+.button-cancel {
+    background-color: #ffffff;
+    color: #777777;
+    width: 100%;
+}
+
